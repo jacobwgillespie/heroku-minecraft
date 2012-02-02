@@ -1,0 +1,29 @@
+2012-02-02 13:28:13 [INFO] Starting minecraft server version 1.1
+2012-02-02 13:28:13 [WARNING] **** NOT ENOUGH RAM!
+2012-02-02 13:28:13 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-02-02 13:28:13 [INFO] Loading properties
+2012-02-02 13:28:13 [WARNING] server.properties does not exist
+2012-02-02 13:28:13 [INFO] Generating new properties file
+2012-02-02 13:28:13 [INFO] Starting Minecraft server on *:25565
+2012-02-02 13:28:13 [WARNING] Failed to load ban list: java.io.FileNotFoundException: banned-players.txt (No such file or directory)
+2012-02-02 13:28:13 [WARNING] Failed to load ip ban list: java.io.FileNotFoundException: banned-ips.txt (No such file or directory)
+2012-02-02 13:28:13 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ops.txt (No such file or directory)
+2012-02-02 13:28:13 [WARNING] Failed to load white-list: java.io.FileNotFoundException: white-list.txt (No such file or directory)
+2012-02-02 13:28:13 [INFO] Preparing level "world"
+2012-02-02 13:28:13 [INFO] Default game type: 0
+2012-02-02 13:28:15 [INFO] Preparing start region for level 0
+2012-02-02 13:28:16 [INFO] Preparing spawn area: 8%
+2012-02-02 13:28:17 [INFO] Preparing spawn area: 20%
+2012-02-02 13:28:18 [INFO] Preparing spawn area: 32%
+2012-02-02 13:28:19 [INFO] Preparing spawn area: 48%
+2012-02-02 13:28:20 [INFO] Preparing spawn area: 65%
+2012-02-02 13:28:21 [INFO] Preparing spawn area: 77%
+2012-02-02 13:28:22 [INFO] Preparing spawn area: 97%
+2012-02-02 13:28:23 [INFO] Done (9527077000ns)! For help, type "help" or "?"
+2012-02-02 13:28:35 [INFO] Unknown console command. Type "help" for help.
+2012-02-02 13:28:39 [INFO] Unknown console command. Type "help" for help.
+2012-02-02 13:28:41 [INFO] CONSOLE: Stopping the server..
+2012-02-02 13:28:41 [INFO] Stopping server
+2012-02-02 13:28:41 [INFO] Saving chunks
+2012-02-02 13:28:42 [INFO] Saving chunks
+2012-02-02 13:28:42 [INFO] Saving chunks
