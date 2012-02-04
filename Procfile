@@ -1,1 +1,1 @@
-web: sh run_minecraft.sh
+web: sh /app/bin/run_minecraft.sh
