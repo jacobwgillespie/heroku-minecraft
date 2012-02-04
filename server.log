@@ -27,3 +27,45 @@
 2012-02-02 13:28:41 [INFO] Saving chunks
 2012-02-02 13:28:42 [INFO] Saving chunks
 2012-02-02 13:28:42 [INFO] Saving chunks
+2012-02-03 18:39:14 [INFO] Starting minecraft server version 1.1
+2012-02-03 18:39:14 [WARNING] **** NOT ENOUGH RAM!
+2012-02-03 18:39:14 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-02-03 18:39:14 [INFO] Loading properties
+2012-02-03 18:39:14 [INFO] Starting Minecraft server on *:5000
+2012-02-03 18:39:14 [INFO] Preparing level "world"
+2012-02-03 18:39:14 [INFO] Default game type: 0
+2012-02-03 18:39:14 [INFO] Preparing start region for level 0
+2012-02-03 18:39:15 [INFO] Preparing spawn area: 12%
+2012-02-03 18:39:16 [INFO] Preparing spawn area: 32%
+2012-02-03 18:39:17 [INFO] Preparing spawn area: 61%
+2012-02-03 18:39:18 [INFO] Preparing spawn area: 81%
+2012-02-03 18:39:20 [INFO] Preparing spawn area: 97%
+2012-02-03 18:39:20 [INFO] Done (6248495000ns)! For help, type "help" or "?"
+2012-02-03 18:39:25 [INFO] CONSOLE: Stopping the server..
+2012-02-03 18:39:26 [INFO] Stopping server
+2012-02-03 18:39:26 [INFO] Saving chunks
+2012-02-03 18:39:34 [INFO] Saving chunks
+2012-02-03 18:39:34 [INFO] Saving chunks
+2012-02-03 18:41:02 [INFO] Starting minecraft server version 1.1
+2012-02-03 18:41:02 [WARNING] **** NOT ENOUGH RAM!
+2012-02-03 18:41:02 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-02-03 18:41:02 [INFO] Loading properties
+2012-02-03 18:41:02 [INFO] Starting Minecraft server on *:8081
+2012-02-03 18:41:02 [INFO] Preparing level "world"
+2012-02-03 18:41:02 [INFO] Default game type: 0
+2012-02-03 18:41:02 [INFO] Preparing start region for level 0
+2012-02-03 18:41:03 [INFO] Done (863606000ns)! For help, type "help" or "?"
+2012-02-03 18:41:20 [INFO] Starting minecraft server version 1.1
+2012-02-03 18:41:20 [WARNING] **** NOT ENOUGH RAM!
+2012-02-03 18:41:20 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-02-03 18:41:20 [INFO] Loading properties
+2012-02-03 18:41:20 [INFO] Starting Minecraft server on *:5000
+2012-02-03 18:41:20 [INFO] Preparing level "world"
+2012-02-03 18:41:20 [INFO] Default game type: 0
+2012-02-03 18:41:20 [INFO] Preparing start region for level 0
+2012-02-03 18:41:21 [INFO] Done (829444000ns)! For help, type "help" or "?"
+2012-02-03 18:41:48 [INFO] CONSOLE: Stopping the server..
+2012-02-03 18:41:48 [INFO] Stopping server
+2012-02-03 18:41:48 [INFO] Saving chunks
+2012-02-03 18:41:49 [INFO] Saving chunks
+2012-02-03 18:41:49 [INFO] Saving chunks
