@@ -69,3 +69,20 @@
 2012-02-03 18:41:48 [INFO] Saving chunks
 2012-02-03 18:41:49 [INFO] Saving chunks
 2012-02-03 18:41:49 [INFO] Saving chunks
+2012-02-03 19:14:14 [INFO] Starting minecraft server version 1.1
+2012-02-03 19:14:14 [WARNING] **** NOT ENOUGH RAM!
+2012-02-03 19:14:14 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-02-03 19:14:14 [INFO] Loading properties
+2012-02-03 19:14:14 [INFO] Starting Minecraft server on *:5000
+2012-02-03 19:14:14 [INFO] Preparing level "world"
+2012-02-03 19:14:14 [INFO] Default game type: 0
+2012-02-03 19:14:14 [INFO] Preparing start region for level 0
+2012-02-03 19:14:15 [INFO] Preparing spawn area: 65%
+2012-02-03 19:14:16 [INFO] Preparing spawn area: 69%
+2012-02-03 19:14:17 [INFO] Preparing spawn area: 89%
+2012-02-03 19:14:18 [INFO] Done (3620060000ns)! For help, type "help" or "?"
+2012-02-03 19:14:27 [INFO] CONSOLE: Stopping the server..
+2012-02-03 19:14:27 [INFO] Stopping server
+2012-02-03 19:14:27 [INFO] Saving chunks
+2012-02-03 19:14:27 [INFO] Saving chunks
+2012-02-03 19:14:27 [INFO] Saving chunks
