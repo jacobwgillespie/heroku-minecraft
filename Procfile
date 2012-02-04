@@ -1,1 +1,1 @@
-web: java -jar bin/minecraft_server.jar nogui
+web: sh run_minecraft.sh
