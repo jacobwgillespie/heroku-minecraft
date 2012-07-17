@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function clean_shutdown {
-  kill $(cat /app/cron.pid)
+  kill $cron_pid
   . /app/bin/sync-from-s3.sh
 }
 trap clean_shutdown SIGTERM
@@ -11,7 +11,7 @@ trap clean_shutdown SIGTERM
 
 # setup background syncing
 /app/bin/poor-mans-cron.sh &
-echo $! > /app/cron.pid
+cron_pid=$!
 
 # create server config
 cp /app/server.properties1 /app/server.properties
