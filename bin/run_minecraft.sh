@@ -10,7 +10,7 @@ trap clean_shutdown SIGTERM
 . /app/bin/sync-from-s3.sh
 
 # setup background syncing
-/app/bin/poor-mans-cron.sh &
+nice /app/bin/poor-mans-cron.sh &
 cron_pid=$!
 
 # create server config
@@ -20,7 +20,7 @@ cat /app/server.properties2 >> /app/server.properties
 
 # print logs to stdout
 touch /app/server.log
-tail -f /app/server.log &
+nice tail -f /app/server.log &
 
 # run minecraft
 cd /app
