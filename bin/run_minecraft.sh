@@ -1,10 +1,10 @@
 #!/bin/bash
 
-function shut_down() {
+function clean_shutdown {
   kill `cat /app/cron.pid`
   . /app/bin/sync-from-s3.sh
 }
-trap shut_down SIGTERM
+trap clean_shutdown SIGTERM
 
 # sync initial files
 . /app/bin/sync-from-s3.sh
