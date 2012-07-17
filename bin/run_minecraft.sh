@@ -20,4 +20,4 @@ cat /app/server.properties2 >> /app/server.properties
 
 # run minecraft
 cd /app
-java -Xmx512M -Xms512M -jar /app/bin/minecraft_server.jar nogui
+java -Xmx1024M -Xms1024M -jar /app/bin/minecraft_server.jar nogui
