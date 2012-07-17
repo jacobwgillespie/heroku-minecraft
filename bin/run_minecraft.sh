@@ -18,6 +18,10 @@ cp /app/server.properties1 /app/server.properties
 echo "server-port=$PORT" >> /app/server.properties
 cat /app/server.properties2 >> /app/server.properties
 
+# print logs to stdout
+touch /app/server.log
+tail -f /app/server.log &
+
 # run minecraft
 cd /app
 java -Xmx1024M -Xms1024M -jar /app/bin/minecraft_server.jar nogui
