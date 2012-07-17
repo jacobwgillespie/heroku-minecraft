@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function clean_shutdown {
-  kill `cat /app/cron.pid`
+  kill $(cat /app/cron.pid)
   . /app/bin/sync-from-s3.sh
 }
 trap clean_shutdown SIGTERM
