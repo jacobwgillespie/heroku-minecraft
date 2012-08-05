@@ -4,4 +4,4 @@ if [ ! -d /app/my_new_env ]; then
 else
   . /app/my_new_env/bin/activate
 fi
-boto-rsync -a $AWS_KEY -s $AWS_SECRET s3://$S3_BUCKET/ /app
+boto-rsync -a $AWS_KEY -s $AWS_SECRET s3://$S3_BUCKET/world /app/world
