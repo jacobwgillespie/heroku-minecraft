@@ -1,2 +1,2 @@
-https://github.com/heroku/heroku-buildpack-python.git
-https://github.com/heroku/heroku-buildpack-java.git
+https://github.com/heroku/heroku-buildpack-python.git#69bdca063fcef34fbac5daaafd1b52d6ac8e2bba
+https://github.com/heroku/heroku-buildpack-java.git#1aea11afaf69f83b5e555a822b4ff467b0732196
