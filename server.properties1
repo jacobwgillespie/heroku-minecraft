@@ -1,6 +1,0 @@
-#Minecraft server properties
-#Thu Feb 02 13:28:23 CST 2012
-allow-nether=true
-level-name=world
-enable-query=false
-allow-flight=false
