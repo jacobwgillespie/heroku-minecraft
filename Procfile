@@ -1,1 +1,1 @@
-server: /app/bin/run_minecraft.sh
+web: /app/bin/run_minecraft.sh

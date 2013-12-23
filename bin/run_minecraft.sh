@@ -14,7 +14,7 @@ nice /app/bin/poor-mans-cron.sh &
 cron_pid=$!
 
 # create server config
-# echo "server-port=$PORT" >> /app/server.properties
+echo "server-port=$PORT" >> /app/server.properties
 
 # print logs to stdout
 touch /app/server.log
