@@ -1,5 +1,6 @@
 var fs = require('fs');
 var net = require('net');
+var http = require('http');
 var https = require('https');
 var crypto = require('crypto');
 var urlParse = require('url').parse;
@@ -34,11 +35,11 @@ if (argv.pidfile) {
   fs.writeFileSync(pidfile, process.pid);
 }
 
-// var key = fs.readFileSync('./keys/ssl.key', 'utf8');
-// var cert = fs.readFileSync('./keys/ssl.crt', 'utf8');
+var key = fs.readFileSync('./keys/ssl.key', 'utf8');
+var cert = fs.readFileSync('./keys/ssl.crt', 'utf8');
 var users = loadUsers();
 
-var server = https.createServer();
+var server = http.createServer();
 
 server.on('request', function(req, res) {
   if (req.url == '/') {
