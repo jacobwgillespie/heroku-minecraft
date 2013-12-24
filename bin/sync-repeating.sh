@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ -z "$(pidof poor-mans-cron.sh)"]; then
+if [ -z "$(pidof sync-repeating.sh)"]; then
   while :
   do
     nice /app/bin/sync-to-s3.sh

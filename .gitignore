@@ -1,1 +1,6 @@
 venv
+world
+logs
+server.log
+banned-players.txt
+banned-ips.txt
