@@ -34,11 +34,11 @@ if (argv.pidfile) {
   fs.writeFileSync(pidfile, process.pid);
 }
 
-var key = fs.readFileSync('./keys/ssl.key', 'utf8');
-var cert = fs.readFileSync('./keys/ssl.crt', 'utf8');
+// var key = fs.readFileSync('./keys/ssl.key', 'utf8');
+// var cert = fs.readFileSync('./keys/ssl.crt', 'utf8');
 var users = loadUsers();
 
-var server = https.createServer({key: key, cert: cert});
+var server = https.createServer();
 
 server.on('request', function(req, res) {
   if (req.url == '/') {
