@@ -68,8 +68,7 @@ server.listen(addr.port, addr.host, function() {
 
 var wsServer = new WebSocketServer({
   httpServer: server,
-  key: key,
-  cert: cert
+  autoAcceptConnections: true
 });
 
 wsServer.on('request', function(request) {
