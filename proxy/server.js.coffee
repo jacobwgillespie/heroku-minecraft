@@ -15,7 +15,7 @@ httpServer.listen heroku_webserver_port, ->
 
 webSocketServer = new WebSocketServer
   httpServer: httpServer
-  autoAcceptConnections: yes
+  # autoAcceptConnections: yes
 
 originIsAllowed = (origin) -> yes
 
@@ -27,6 +27,7 @@ webSocketServer.on "request", (request) ->
   # params = url.query
 
   unless action is 'tunnel'
+    console.log "Rejecting request for #{action} with 404"
     request.reject(404)
     return
 
