@@ -24,4 +24,4 @@ nice tail -f /app/server.log &
 cd /app
 java -Xmx1024M -Xms1024M -jar /app/vendor/minecraft_server.1.7.4.jar nogui &
 
-node server.js 0.0.0.0:${PORT}
+node /app/vendor/node-websocket-tunnel/server.js 0.0.0.0:${PORT}
