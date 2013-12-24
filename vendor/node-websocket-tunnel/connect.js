@@ -1,4 +1,6 @@
 var https = require('https');
+var http = require('http');
+
 var tunnel = require('./lib/tunnel');
 
 var remoteHost = process.argv[2] || 'localhost';
@@ -45,7 +47,7 @@ shell.on('command', function(cmd, args) {
 });
 
 shell.echo('WebSocket Tunnel Console v0.1');
-shell.echo('Remote Host: https://' + remoteHost);
+shell.echo('Remote Host: http://' + remoteHost);
 
 authenticate(function() {
   shell.prompt();
@@ -76,7 +78,7 @@ function checkAuth(callback) {
     path: '/auth',
     headers: {'Authorization': 'Basic ' + encoded}
   };
-  var req = https.request(opts, function(res) {
+  var req = http.request(opts, function(res) {
     callback(res.statusCode == 204);
   });
   req.on('error', function(err) {
