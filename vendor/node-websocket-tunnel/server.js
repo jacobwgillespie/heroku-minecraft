@@ -98,10 +98,11 @@ function authenticate(request) {
 }
 
 function createTunnel(request, port, host) {
-  if (!authenticate(request.httpRequest)) {
-    request.reject(403);
-    return;
-  }
+  console.log("Trying to create a tunnel...");
+  // if (!authenticate(request.httpRequest)) {
+  //   request.reject(403);
+  //   return;
+  // }
   var webSock = request.accept();
   console.log(webSock.remoteAddress + ' connected - Protocol Version ' + webSock.websocketVersion);
 
