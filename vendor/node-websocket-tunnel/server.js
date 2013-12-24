@@ -92,6 +92,7 @@ function authenticate(request) {
   } catch(e) {
     credentials = [];
   }
+  console.log("User " + user + " tried to connect with password " + credentials[1]);
   var user = credentials[0], hash = md5(credentials[1]);
   return (users[user] == hash);
 }
