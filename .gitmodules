@@ -1,3 +1,0 @@
-[submodule "vendor/node-websocket-tunnel"]
-	path = vendor/node-websocket-tunnel
-	url = https://github.com/sstur/node-websocket-tunnel
