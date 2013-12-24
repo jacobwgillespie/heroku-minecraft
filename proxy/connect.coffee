@@ -5,12 +5,17 @@ createTunnel = (host, callback) ->
 
   url = "wss://#{host}/tunnel"
 
+  console.log "toodling"
+
+  console.log "net: #{net.createServer}"
+
   server = net.createServer (tcpSock) ->
+
+    console.log "HELLOOOOO"
+
     wsClient = new WebSocketClient()
     webSock = undefined
     buffer = []
-
-    console.log "poop plex"
 
     tcpSock.on "data", (data) ->
       if not webSock or buffer.length > 0
