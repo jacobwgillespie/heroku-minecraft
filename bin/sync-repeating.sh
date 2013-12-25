@@ -4,6 +4,6 @@ if [ -z "$(pidof sync-repeating.sh)"]; then
   do
     nice /app/bin/sync-to-s3.sh
     nice /app/bin/sync-to-s3.sh
-    sleep 60
+    sleep 300
   done
 fi
