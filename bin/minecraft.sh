@@ -6,11 +6,11 @@ function clean_shutdown {
 }
 trap clean_shutdown SIGTERM
 
+# create server config
+echo "server-port=25566" > /app/server.properties
+
 # sync initial files
 ruby bin/sync.rb init
-
-# create server config
-# echo "server-port=$PORT" >> /app/server.properties
 
 # print logs to stdout
 touch server.log
