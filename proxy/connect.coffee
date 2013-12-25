@@ -3,15 +3,9 @@ WebSocketClient = require("websocket").client
 
 createTunnel = (host, callback) ->
 
-  url = "wss://#{host}/tunnel"
-
-  console.log "toodling"
-
-  console.log "net: #{net.createServer}"
+  url = "ws://#{host}/tunnel"
 
   server = net.createServer (tcpSock) ->
-
-    console.log "HELLOOOOO"
 
     wsClient = new WebSocketClient()
     webSock = undefined
@@ -22,7 +16,7 @@ createTunnel = (host, callback) ->
         console.log "Buffering TCP Data: #{data}"
         buffer.push data
       else
-        console.log "Sending TCP Data over WebSockets: #{data}"
+        # console.log "Sending TCP Data over WebSockets: #{data}"
         webSock.send data
 
     tcpSock.on "close", ->
