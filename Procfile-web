@@ -1,3 +1,3 @@
 minecraft: bin/minecraft.sh
 proxy_server: coffee proxy/server.coffee
-s3_sync: bin/sync-repeating.sh
+s3_sync: ruby bin/sync.rb repeating $S3_SYNC_INTERVAL
