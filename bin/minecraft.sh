@@ -7,7 +7,7 @@ function clean_shutdown {
 trap clean_shutdown SIGTERM
 
 # sync initial files
-. ruby bin/sync.rb init
+ruby bin/sync.rb init
 
 # create server config
 # echo "server-port=$PORT" >> /app/server.properties
