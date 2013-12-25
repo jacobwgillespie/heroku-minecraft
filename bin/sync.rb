@@ -40,7 +40,7 @@ end
 if ARGV[0] == "init"
   Sync.initial_sync
 elsif ARGV[0] == "repeating"
-  sleeptime = ARGV[1] ? ARGV[1].to_i : 60
+  sleeptime = ARGV[1] ? ARGV[1].to_i : 250
   puts "Scheduling sync every #{sleeptime} seconds"
   while true
     Sync.normal_sync
