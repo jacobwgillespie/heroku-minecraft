@@ -1,0 +1,3 @@
+minecraft: bin/minecraft.sh
+proxy_server: coffee proxy/server.coffee
+proxy_client: sleep 2 ; coffee proxy/connect.coffee localhost:8080
