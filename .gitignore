@@ -7,3 +7,4 @@ banned-ips.txt
 ops.txt
 white-list.txt
 server.properties
+.DS_Store
