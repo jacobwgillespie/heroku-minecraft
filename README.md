@@ -18,28 +18,22 @@ Since Heroku is a bit of a weird platform, there are a couple of caveats to runn
 
 2. Create a new Heroku app with a custom buildpack.
 
+   ```bash
+   $ heroku create my-app-name --buildpack https://github.com/ddollar/heroku-buildpack-multi.git
    ```
-   heroku create my-app-name --buildpack https://github.com/ddollar/heroku-buildpack-multi.git
-   ```
-   
-3. Enable the [Heroku Labs WebSockets feature](https://devcenter.heroku.com/articles/heroku-labs-websockets).
 
-   ```
-   heroku labs:enable websockets
-   ```
-   
-4. Add your Amazon AWS credentials and S3 bucket name to the Heroku configuration. This enables data persistence. Otherwise, your server will be wiped each time it is restarted.
+3. Add your Amazon AWS credentials and S3 bucket name to the Heroku configuration. This enables data persistence. Otherwise, your server will be wiped each time it is restarted.
 
+   ```bash
+   $ heroku config:add AWS_KEY=xxxxxxx AWS_SECRET=yyyyyyyyyyyyyyyyy S3_BUCKET=my-bucket-name
    ```
-   heroku config:add AWS_KEY=xxxxxxx AWS_SECRET=yyyyyyyyyyyyyyyyy S3_BUCKET=my-bucket-name
-   ```
-   
-5. Push the app to Heroku.
 
+4. Push the app to Heroku.
+
+   ```bash
+   $ git push heroku master
    ```
-   git push heroku master
-   ```
-   
+
 ## Client Setup
 
 Hopefully, this process can be streamlined in the future, but for now it's a little squirrely if you aren't a developer.
@@ -52,26 +46,26 @@ These instructions are for OS X, or some other Linux-like operating system maybe
 
 3. Change to the repository you cloned.
 
+   ```bash
+   $ cd ~/Downloads-Or-Wherever/heroku-minecraft
    ```
-   cd ~/Downloads-Or-Wherever/heroku-minecraft
-   ```
-   
+
 4. Install the NPM dependencies.
 
+   ```bash
+   $ npm install
    ```
-   npm install
-   ```
-   
+
 5. Run the proxy service. This will proxy the Minecraft server on Heroku to your local machine. The server will appear to be a Minecraft server running on your local machine.
 
+   ```bash
+   $ coffee proxy/connect.coffee my-app-name.herokuapp.com
    ```
-   coffee proxy/connect.coffee my-app-name.herokuapp.com
-   ```
-   
+
 6. **Leave the terminal window open** and launch Minecraft. Add a new server with the address `localhost`. Hit connect and play! When you're done playing, close the terminal window.
 
 ## Credits
 
-Much of the original Heroku setup by [Jacob Gillespie](https://github.com/jacobwg). 
+Much of the original Heroku setup by [Jacob Gillespie](https://github.com/jacobwgillespie).
 
 Updates, refactoring, and the WebSockets proxying by [Wil Gieseler](https://github.com/wilg).
