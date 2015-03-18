@@ -1,4 +1,4 @@
 https://github.com/heroku/heroku-buildpack-ruby.git
-https://github.com/heroku/heroku-buildpack-python.git#69bdca063fcef34fbac5daaafd1b52d6ac8e2bba
-https://github.com/heroku/heroku-buildpack-java.git#1aea11afaf69f83b5e555a822b4ff467b0732196
-https://github.com/heroku/heroku-buildpack-nodejs.git#c962f1e40ea98e37342261f12b6d2a324b0bc8de
+https://github.com/heroku/heroku-buildpack-python.git
+https://github.com/heroku/heroku-buildpack-java.git
+https://github.com/heroku/heroku-buildpack-nodejs.git
