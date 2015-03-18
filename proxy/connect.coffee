@@ -16,7 +16,6 @@ createTunnel = (host, callback) ->
         console.log "Buffering TCP Data: #{data}"
         buffer.push data
       else
-        # console.log "Sending TCP Data over WebSockets: #{data}"
         webSock.send data
 
     tcpSock.on "close", ->
@@ -74,5 +73,3 @@ createTunnel = (host, callback) ->
 
 createTunnel process.argv[2], (err, server) ->
   console.log "Local Error: #{String(err)}" if err?
-  # else
-  #   log "TCP to WebSockets tunnel opened."

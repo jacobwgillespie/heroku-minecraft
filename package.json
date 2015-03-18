@@ -16,9 +16,8 @@
     "url": "https://github.com/jacobwgillespie/heroku-minecraft/issues"
   },
   "dependencies": {
-    "coffee-script": "1.6.3",
-    "websocket": "1.0.8",
-    "optimist": "0.6.0"
+    "coffee-script": "^1.6.3",
+    "websocket": "^1.0.8"
   },
   "homepage": "https://github.com/jacobwgillespie/heroku-minecraft"
 }
