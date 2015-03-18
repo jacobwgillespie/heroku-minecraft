@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set Minecraft version
-MC_VERSION="${MC_VERSION:-1.7.10}"
+MC_VERSION="${MC_VERSION:-1.8.3}"
 
 
 # Download Minecraft
