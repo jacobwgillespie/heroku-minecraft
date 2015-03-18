@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wilg/heroku-minecraft.git"
+    "url": "https://github.com/jacobwgillespie/heroku-minecraft.git"
   },
   "author": "Wil Gieseler",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/wilg/heroku-minecraft/issues"
+    "url": "https://github.com/jacobwgillespie/heroku-minecraft/issues"
   },
   "dependencies": {
     "coffee-script": "1.6.3",
     "websocket": "1.0.8",
     "optimist": "0.6.0"
   },
-  "homepage": "https://github.com/wilg/heroku-minecraft"
+  "homepage": "https://github.com/jacobwgillespie/heroku-minecraft"
 }
