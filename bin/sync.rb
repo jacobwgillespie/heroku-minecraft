@@ -31,12 +31,12 @@ class Sync
   end
 
   def self.push_to_s3(filename)
-    `boto-rsync -a $AWS_KEY -s $AWS_SECRET \
+    `aws s3 sync \
       /app/#{filename} s3://$S3_BUCKET/#{filename}`
   end
 
   def self.pull_from_s3(filename)
-    `boto-rsync -a $AWS_KEY -s $AWS_SECRET \
+    `aws s3 sync \
       s3://$S3_BUCKET/#{filename} /app/#{filename}`
   end
 end
